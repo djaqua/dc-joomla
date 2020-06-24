@@ -1,7 +1,7 @@
 # dc-joomla
 docker-compose project for running a Joomla website
 
-## Running the Website
+## Deployment
 To provide the highest availability for the current deployment paradigm, each 
 of the containers is set to start automatically with the Docker service. This
 can be observed by restarting the Docker service itself, or rebooting the host.
@@ -12,7 +12,6 @@ A potentially useful alternative could be "restart: unless-stopped", which is
 the same as "restart: always" except for when the containers are stopped 
 manually.
 
-## Deployment
 For production, start by issuing the following command:
 ```Docker
 ./gen-env.sh    # generates .env file to be used by docker-compose
