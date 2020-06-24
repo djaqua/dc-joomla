@@ -22,7 +22,7 @@ For production, start by issuing the following command:
 To start the website (creating new containers if neccessary), issue the command:
 
 ```Docker
-docker-compose up --detcach website
+docker-compose up --detach website
 ```
 
 To stop the containers (*without* destroying them), issue the command:
